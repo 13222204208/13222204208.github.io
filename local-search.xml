@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>《Go入门指南》阅读笔记</title>
+    <link href="/2022/06/09/%E3%80%8AGo%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E3%80%8B%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    <url>/2022/06/09/%E3%80%8AGo%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E3%80%8B%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs go"><span class="hljs-comment">// 变量除了可以在全局化中初始化，也可以在init函数中初始化</span><br><span class="hljs-keyword">package</span> trans<br><br><span class="hljs-keyword">import</span> <span class="hljs-string">&quot;math&quot;</span><br><br><span class="hljs-keyword">var</span> Pi <span class="hljs-type">float64</span><br><br><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">init</span><span class="hljs-params">()</span></span> &#123;<br>   Pi = <span class="hljs-number">4</span> * math.Atan(<span class="hljs-number">1</span>) <span class="hljs-comment">// init() function computes Pi</span><br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2022/06/09/hello-world/"/>
     <url>/2022/06/09/hello-world/</url>
